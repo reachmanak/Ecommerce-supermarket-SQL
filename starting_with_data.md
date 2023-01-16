@@ -66,21 +66,3 @@ Answer:
 "Home/Apparel/Kid's/Kid's-Toddler/"	19.5
 "Home/Accessories/Pet/"	3.9
 "Home/Brands/YouTube/"	16.9
-
-
-
-Question 4: 
-
-
-
-SQL Queries:
-
-Answer:
-
-
-
-Question 5: 
-
-SQL Queries:
-
-Answer:
