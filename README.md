@@ -5,10 +5,11 @@ This project is the analysis of an ecommerce website. It helps us to understand 
 ## Process
 1. Load Data Into Psql Tool by creation of tables. Did it by writing create table query commmand.
 2. Cleaned the data:
-                   - Removed Irrelevant data columns (Alter Commands)
-                   - Removed duplicates from database
-                   - Removed and Filled Null Values where needed
-                   - Did conversions of columns like date, time etc.
+
+   - Removed Irrelevant data columns (Alter Commands)
+   - Removed duplicates from database
+   - Removed and Filled Null Values where needed
+   - Did conversions of columns like date, time etc.
 ## Results
 The data and my analysis highlights many points wherein we can say that the organization focus more on lost cost products in terms of price and stationary, electronics and apparels for produc>
 The products should be pushed more in smaller nations like Thailand, Ukraine etc.
