@@ -19,14 +19,23 @@ from raw_analytics
 
 
 ALTER TABLE allsessions DROP COLUMN "transactionId"
+
 ALTER TABLE allsessions DROP COLUMN "transactionRevenue"
+
 ALTER TABLE allsessions DROP COLUMN "itemRevenue"
+
 ALTER TABLE allsessions DROP COLUMN "eCommerceAction_type"
+
 ALTER TABLE allsessions DROP COLUMN "eCommerceAction_option"
+
 ALTER TABLE allsessions DROP COLUMN "eCommerceAction_step"
+
 ALTER TABLE allsessions DROP COLUMN "productPrice"
+
 ALTER TABLE allsessions2 RENAME COLUMN "v2ProductNAme" to "productname"
+
 ALTER TABLE allsessions2 RENAME COLUMN "v2ProductCategory" to "productcategory"
+
 ALTER TABLE allsessions2 RENAME COLUMN "to_timestamp" to "Time"
 
 
@@ -61,6 +70,7 @@ USING raw_analytics1 rw
 WHERE ra.fullvisitorid = rw.fullvisitorid
 
 select to_timestamp("time") from allsessions
+
 select to_date("date) from allsessions
 
 
