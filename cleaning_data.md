@@ -59,3 +59,8 @@ DELETE FROM
 raw_analytics1 ra
 USING raw_analytics1 rw
 WHERE ra.fullvisitorid = rw.fullvisitorid
+
+select to_timestamp("time") from allsessions
+select to_date("date) from allsessions
+
+
